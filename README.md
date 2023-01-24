@@ -1,5 +1,5 @@
 <h1> Projeto em grupo módulo 4 bando de dados </h1>
-<p> - Banco de dados relacional utilizando dados da série Game Of Thrones da HBO </p>
+<h2>  Banco de dados relacional utilizando dados da série Game Of Thrones da HBO </h2>
 <p> - Nosso Dashboard foi feito na aplicação Tableau Public onde foram realizadas as perguntas </p>
 <p> - Cada pergunta foi feita e devidamente aprensetada de forma visual </p>
 <p> </p>

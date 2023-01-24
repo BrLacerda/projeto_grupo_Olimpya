@@ -4,7 +4,7 @@
 <p> - Cada pergunta foi feita e devidamente aprensetada de forma visual </p>
 <p> </p>
 <p> </p>
-<p> As perguntas são: </p>
+<h2> As perguntas são: </h2>
 <p> - Quais personagens aparecem em todas as temporadas </p>
 <p> - Quais personagens aparecem na última temporada e continuam vivos até o final </p>
 <p> - Quantos episódios o George R.R. Martin escreveu </p>

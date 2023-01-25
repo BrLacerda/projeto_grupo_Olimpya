@@ -1,0 +1,60 @@
+Personagens em todas as temporadas:
+
+SELECT
+	nome, ator, episodios_participados
+FROM
+	game_of_thrones.personagens as P
+WHERE primeira_aparicao = '2011' and ultima_aparicao = '2019';
+
+
+
+
+Episódios que Geoge RR Martin escreveu:
+
+SELECT
+	episodio, temporada, titulo, avaliacao, roteirista_1, roteirista_2
+FROM
+	game_of_thrones.episodios
+WHERE roteirista_1 = 'George R.R. Martin' or roteirista_2 = 'George R.R. Martin';
+
+
+Média de avaliacao dos episódios escritos por cada roteirista principal:
+
+SELECT
+	avg(avaliacao), roteirista_1
+FROM
+	game_of_thrones.episodios
+group by roteirista_1;
+
+
+
+Quantos episodios cada um dirigiu e qual media de avaliação desses episodios:
+
+SELECT
+	avg(avaliacao), diretor, count(episodio)
+FROM
+	game_of_thrones.episodios
+group by diretor;
+
+
+
+Personagens que mais participaram de episodios:
+
+SELECT
+	nome, ator, episodios_participados
+FROM
+	game_of_thrones.personagens
+order by episodios_participados desc;
+
+
+
+Vezes que cada ator foi a estrela número 1 do episodio:
+
+SELECT
+	avg(ep.avaliacao), ep.estrela_1, P.nome,count(ep.episodio)
+FROM
+	game_of_thrones.episodios AS ep
+INNER JOIN
+	personagens as P ON ep.estrela_1 = P.ator
+group by estrela_1
+order by count(ep.episodio) desc;

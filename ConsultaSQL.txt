@@ -50,3 +50,4 @@ INNER JOIN
 	personagens as P ON ep.estrela_1 = P.ator
 group by estrela_1
 order by count(ep.episodio) desc;
+...

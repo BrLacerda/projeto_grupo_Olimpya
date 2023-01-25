@@ -9,14 +9,6 @@ WHERE primeira_aparicao = '2011' and ultima_aparicao = '2019';
 
 
 
-Episódios que Geoge RR Martin escreveu:
-
-SELECT
-	episodio, temporada, titulo, avaliacao, roteirista_1, roteirista_2
-FROM
-	game_of_thrones.episodios
-WHERE roteirista_1 = 'George R.R. Martin' or roteirista_2 = 'George R.R. Martin';
-
 
 Média de avaliacao dos episódios escritos por cada roteirista principal:
 

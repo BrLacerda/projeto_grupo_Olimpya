@@ -5,8 +5,8 @@
 <p> </p>
 <p> </p>
 <h2> As perguntas são: </h2>
-<p> - Quais personagens aparecem em todas as temporadas </p>
-<p> - Quais personagens aparecem na última temporada e continuam vivos até o final </p>
-<p> - Quantos episódios o George R.R. Martin escreveu </p>
-<p> - Quais episódias foram dirigidos por Gearge R.R. Martin </p>
-<p> - Quais atores foram estrelas mais vezes de cada episódio </p>
+<p> - Quais personagens aparecem na primeira e última temporada?</p>
+<p> - Quais personagens mais participaram de epísódios na série toda?</p>
+<p> - Quantos episódios cada roteirista escreveu e qual a média de avaliação desses episódios?</p>
+<p> - Quantos episódios cada diretor ficou responsável por dirigir e qual a média de avaliação desses episódios?</p>
+<p> - Quais atores foram estrelas principais de episódios mais vezes na série?</p>
